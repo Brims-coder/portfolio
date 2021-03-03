@@ -1,4 +1,11 @@
-.bold {
-    flex: center;
-    font-weight: bold;
+:root {
+    --black: #2b2a2c;
+    --gray: #6a696b;
+    --gray-light: #dedede;
+    --white: #ffffff;   
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
