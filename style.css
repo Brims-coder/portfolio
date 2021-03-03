@@ -25,3 +25,12 @@ p {
 * :after {
     box-sizing: border-box;
 }
+.container {
+ width: 100%;
+ max-width: 1200px;
+}
+
+.bold {
+    font-weight: bold;
+    color: var(--gray);
+}
