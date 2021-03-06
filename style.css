@@ -54,7 +54,12 @@ p {
 
 .usser_content{
     padding-left: 9px;
-   
-}
+   }
+
+   .usser_name {
+       font-size: 1rem;
+       color: var(--black);
+       font-weight: bold;
+   }
 
 
