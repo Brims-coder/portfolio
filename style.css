@@ -132,3 +132,15 @@ font-weight: 2rem;
 .social_link:hover {
     transform: translateY(-5px);
 }
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    width: 12.5rem;
+
+    border: 1px solid black;
+    border-radius: 1.8rem;
+    background: none;
+    cursor: pointer;
+
+}
