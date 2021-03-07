@@ -128,3 +128,7 @@ font-weight: 2rem;
     margin-right: 0.75rem;
     text-decoration: none;
 }
+
+.social_link:hover {
+    transform: translateY(-5px);
+}
