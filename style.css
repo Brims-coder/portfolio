@@ -67,7 +67,27 @@ p {
        font-size: 0.75rem;
        opacity: 0.7;
        color: var(--black);
+}
 
-   }
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+}
 
+.nav_link {
+margin-left: 2rem;
+font-size: 0.9rem;
+font-weight: bold;
+position: relative;
+color: var(--black);
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.nav_link:hover {
+    border-bottom: 2px solid black;
+    padding: 0 0 4px;
+}
 
