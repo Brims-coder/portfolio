@@ -99,3 +99,13 @@ text-decoration: none;
 
     border-bottom: 1px solid black;
 }
+
+.intro_subtitle {
+color: var(--black);
+font-weight: 200;
+}
+
+.intro_title {
+    color: var(--black);
+    font-weight: bold;
+}
