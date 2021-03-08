@@ -178,9 +178,13 @@ font-weight: 2rem;
 
 }
 
+.works {
+    margin-bottom: 7rem;
+}
 .portfolio {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .work {
