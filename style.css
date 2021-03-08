@@ -188,3 +188,30 @@ font-weight: 2rem;
     box-shadow: 0 0 4px black;
     border-radius: 10px;
 }
+.work:hover {
+    box-shadow: 0 0 25px black;
+}
+
+.work_content {
+    padding: 1rem 0.8rem;
+}
+
+.work_cat {
+    font-size: 0.75rem;
+    color: var(--black);
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-bottom: 0.8rem;
+}
+
+.work_title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.9rem;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+
