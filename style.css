@@ -218,17 +218,17 @@ font-weight: 2rem;
     text-transform: uppercase;
 }
 
-
 .about_inner {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 7rem;
 
 }
 
 .about_foto {
-    border-radius: 5px;
+    border-radius: 10%;
     max-width: 50%;
-    padding-left: 3.5rem;
+    padding-left: 0.5rem;
 }
 
 .about_content {
@@ -261,4 +261,8 @@ font-weight: 2rem;
     color: var(--gray);
     font-weight: 300;
 
+}
+
+.reviews {
+    background: #332f30 url("my images/1234.png");
 }
