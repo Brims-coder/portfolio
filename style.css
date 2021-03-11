@@ -262,7 +262,7 @@ font-weight: 2rem;
     font-weight: 300;
 
 }
-
+/*
 .reviews {
     background: #332f30 url("my images/1234.png") center no-repeat;
     position: relative;
@@ -296,12 +296,10 @@ font-weight: 2rem;
     z-index: 1;
     
 }
-
+*/
 .footer {
     padding: 1rem 0;
     background-color: #2b2a2c;
-    width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -335,5 +333,18 @@ justify-content: space-between;
 .footer_social {
     display: flex;
     align-items: center;
+
+}
+
+.footer_nav {
+    display: flex;
+    align-items: center;
+}
+
+.footer_nav_link {
+    text-decoration: none;
+    margin-left: 1rem;
+    color: var(--gray);
+    font-size: 0.9rem;
 
 }
