@@ -318,3 +318,7 @@ font-weight: 2rem;
     
     border-right: 1px solid #79797a;
 }
+
+.footer_link {
+    padding-right: 0.8rem;
+}
