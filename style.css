@@ -305,6 +305,12 @@ font-weight: 2rem;
     margin: 0 auto;
 }
 
+.footer_inner {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
 .footer_info {
     display: flex;
     align-items: center;
@@ -320,5 +326,14 @@ font-weight: 2rem;
 }
 
 .footer_link {
-    padding-right: 0.8rem;
+    text-decoration: none;
+    margin-right: 1rem;
+    
+}
+
+
+.footer_social {
+    display: flex;
+    align-items: center;
+
 }
