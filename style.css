@@ -270,6 +270,7 @@ font-weight: 2rem;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 7rem;
 }
 .reviews_inner {
     width: 100%;
@@ -299,4 +300,21 @@ font-weight: 2rem;
 .footer {
     padding: 1rem 0;
     background-color: #2b2a2c;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer_info {
+    display: flex;
+    align-items: center;
+}
+
+.footer_copyright {
+    font-size: 0.9rem;
+    color: #79797a;
+    padding: 1rem;
+    margin: 1rem;
+    
+    border-right: 1px solid #79797a;
 }
