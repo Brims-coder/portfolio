@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
     <title>Portfolio</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.map"></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js></script>
 </head>
 <body>
     <header class="header">
@@ -23,11 +23,11 @@
                 </div>
 
 
-                <div class="nav">
-                    <a class="nav_link" href="#">work</a>
-                    <a class="nav_link" href="#">about me</a>
+                <div class="nav" id="nav">
+                    <a class="nav_link" href="#" data-scroll="#work">work</a>
+                    <a class="nav_link" href="#" data-scroll="#about">about me</a>
                     <!--<a class="nav_link" href="#">blog</a>-->
-                    <a class="nav_link" href="#">contact</a>
+                    <a class="nav_link" href="mailto:vlaimir.brims@mail.ru" >contact</a>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@
     </div>
 </div>
 
-<div class="works">
+<div class="works" id="work">
     <div class="container">
         <h3 class="text_center">My works</h3>
 
@@ -114,7 +114,7 @@
     </div>
 </div>
 
-<div class="about">
+<div class="about" id="about">
     <div class="container">
         <div class="about_inner">
          
@@ -174,14 +174,19 @@
             </div>
 
             <div class="footer_nav">
-                <a class="footer_nav_link" href="#">Work</a>
-                <a class="footer_nav_link" href="#">About me</a>
-                <!--<a class="footer_nav_link" href="#">Blog</a>-->
-                <a class="footer_nav_link" href="#">Contacts</a>
+                <a class="footer_nav_link" href="#" data-scroll="#work">work</a>
+                <a class="footer_nav_link" href="#" data-scroll="#about">about me</a>
+                <!--<a class="footer_nav_link" href="#">blog</a>-->
+                <a class="footer_nav_link" href="mailto:vlaimir.brims@mail.ru" >contact</a>
             </div>
         </div>
     </div>
 </footer>
+
+<div class="modal" id="modal_resume">
+    
+</div>
+
 <script src="app.js"></script>
 </body>
 </html>
