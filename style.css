@@ -351,6 +351,7 @@ justify-content: space-between;
 }
 
 .modal {
+    display: none;
     width: 100%;
     height: 100%;
     padding: 1rem;
@@ -361,6 +362,30 @@ justify-content: space-between;
     top: 0;
     left: 0;
     z-index: 1000;
+}
+
+.show {
+display: flex;
+}
+
+.modal_dialog {
+    
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.modal_photo {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.btn_modal {
+    margin: -5rem 0;
 }
 
 
@@ -417,6 +442,9 @@ justify-content: space-between;
 }
 
 }
+
+
+
 
 @media(max-width: 767px) {
 
