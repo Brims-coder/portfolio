@@ -213,7 +213,7 @@ font-weight: 2rem;
 .work_title {
     display: flex;
     justify-content: space-between;
-    font-size: 1rem;
+    font-size: 0.6rem;
     font-weight: bold;
     margin-bottom: 0.9rem;
     color: var(--black);
@@ -420,7 +420,7 @@ display: flex;
 }
 
  .work_title {
-    font-size: 1.5rem;
+    font-size: 0.5rem;
 }
 
  .about_foto {
