@@ -223,19 +223,19 @@ font-weight: 2rem;
 .about_inner {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 7rem;
+    margin-bottom: 4rem;
 
 }
 
 .about_foto {
-    max-width: 50%;
-    padding-left: 0.5rem;
+    max-width: 100%;
+    padding-left: 1rem;
 }
 
 .about_content {
     max-width: 50%;
     margin-top: 5rem;
-    padding-left: 7.5rem;
+    padding-left: 3rem;
 
 }
 
@@ -256,9 +256,9 @@ font-weight: 2rem;
 
 .about_text {
     margin-top: 2.5rem;
-    margin-bottom: 3.5rem;
+    margin-bottom: 3rem;
 
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: var(--gray);
     font-weight: 300;
 
@@ -357,6 +357,11 @@ display: flex;
 
 
 @media (max-width: 1199px) {
+    .nav {
+        display: flex;
+        z-index: 1199;
+    }
+    
     .intro {
      margin-top: -5rem;
     }
@@ -396,12 +401,13 @@ display: flex;
 }
 
  .about_content {
-    margin-top: 0rem;
+    
+    margin-top: 2rem;
     padding: 0 2rem;
 }
 
  .about_bigtitle {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
  .about_text {
@@ -423,9 +429,9 @@ display: flex;
 
 @media(max-width: 767px) {
 
+
 .usser {
-    display: none;
-    
+    display: none;   
 }
 
 .nav {
@@ -490,8 +496,6 @@ font-size: 2.5rem;
 .footer_copyright {
     font-size: 0.8rem;
 }
-
-
 
 .modal_dialog {
     display: auto;
