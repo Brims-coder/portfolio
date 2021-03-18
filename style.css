@@ -263,41 +263,7 @@ font-weight: 2rem;
     font-weight: 300;
 
 }
-/*
-.reviews {
-    background: #332f30 url("my images/1234.png") center no-repeat;
-    position: relative;
-    padding: 3rem 0;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-bottom: 7rem;
-}
-.reviews_inner {
-    width: 100%;
-    max-width: 830px;
-    margin: 0 auto;
-}
 
-.reviews_text {
-    font-size: 00.9rem;
-    color: var(--white);
-    text-align: center;
-
-}
-
-.reviews_author {
-    width: 100%;
-    margin-top: -51px;
-    text-align: center;
-    
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1;
-    
-}
-*/
 .footer {
     padding: 1rem 0;
     background-color: #2b2a2c;
@@ -392,7 +358,7 @@ display: flex;
 
 @media (max-width: 1199px) {
     .intro {
-        margin-top: -5rem;
+     margin-top: -5rem;
     }
     .intro_photo {
     width: 100%;
@@ -455,26 +421,23 @@ display: flex;
 
 
 
-
 @media(max-width: 767px) {
 
 .usser {
     display: none;
+    
 }
 
 .nav {
 display: flex;
 justify-content: space-around;
-
+z-index: 767;
 width: 100%;
-border-bottom: 1px solid black;
-padding-bottom: 1rem;
-
 }
 
 .nav_link {
     margin: 0;
-
+    
 }
 
 .intro_title {
@@ -528,9 +491,7 @@ font-size: 2.5rem;
     font-size: 0.8rem;
 }
 
-.footer_nav {
-    display: none;
-}
+
 
 .modal_dialog {
     display: auto;
